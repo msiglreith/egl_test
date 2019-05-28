@@ -1,0 +1,11 @@
+[package]
+name = "egl_test"
+version = "0.1.0"
+authors = ["msiglreith <m.siglreith@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+grr = { path = "../grr" }
+winit = "0.19"
+glutin_egl_sys = "0.1"
+libloading = "0.5"
